@@ -216,3 +216,69 @@ body {
   background: rgb(255, 255, 255);
   padding: 32px 32px 32px 32px;
 }
+
+#donate {
+  margin-top: 80px;
+  margin-left: 160px;
+  margin-right: 160px;
+  margin-bottom: 80px;
+  max-width: 1280px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  row-gap: 32px;
+  align-items: center;
+  flex-direction: column;
+}
+
+#taka {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 24px;
+  padding: 0px;
+}
+.takabox {
+  padding: 40px 40px;
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+#otheramount {
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+  background-color: rgb(255, 255, 255);
+  padding: 20px 40px;
+  max-width: 1032px;
+  width: 100%;
+  text-align: center;
+  color: rgba(14, 14, 14, 0.3);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+
+#subscribe {
+  max-width: 1280px;
+  width: 100%;
+  height: auto;
+  padding: 80px 100px;
+  margin-top: 80px;
+  margin-left: 160px;
+  margin-right: 160px;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 80px;
+  background: rgb(198, 228, 214);
+}
